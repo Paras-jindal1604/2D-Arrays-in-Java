@@ -1,44 +1,38 @@
-2D Arrays in Java
+# 2D Arrays in Java
 Welcome to the 2D Arrays in Java repository! This project contains Java programs and examples related to 2D arrays, including common operations and problems such as transposing a matrix and printing a matrix in spiral order.
 
-Table of Contents
-Introduction
-Setup
-Examples
-Creating a 2D Array
-Transposing a Matrix
-Printing a Matrix in Spiral Order
-Contributing
-License
-Introduction
+## Table of Contents
+1. Introduction
+2. Setup 
+3. Examples
+4. Creating a 2D Array
+5. Transposing a Matrix
+6. Printing a Matrix in Spiral Order
+7. Contributing
+
+### Introduction
 This repository provides a comprehensive guide to working with 2D arrays in Java. It covers the basics of creating and manipulating 2D arrays and includes solutions to common problems.
 
-Setup
+### Setup
 To run the examples in this repository, you need to have Java installed on your machine. Follow these steps to set up your environment:
 
-Download and install Java.
-Clone this repository:
-bash
-Copy code
-git clone https://github.com/yourusername/2d-arrays-in-java.git
-Navigate to the project directory:
-bash
-Copy code
-cd 2d-arrays-in-java
-Compile the Java files:
-bash
-Copy code
+* Download and install Java.
+* Clone this repository:
+git clone https://github.com/Paras-jindal1604/2D-Arrays-in-java.git
+
+* Navigate to the project directory:
+cd 2D-Arrays-in-java
+
+* Compile the Java files:
 javac src/*.java
-Run the examples:
-bash
-Copy code
+
+* Run the examples:
 java src.Main
-Examples
-Creating a 2D Array
+
+### Examples
+#### Creating a 2D Array
 Here's how to create a 2D array in Java:
 
-java
-Copy code
 public class Main {
     public static void main(String[] args) {
         int[][] array = {
@@ -56,11 +50,10 @@ public class Main {
         }
     }
 }
-Transposing a Matrix
+
+#### Transposing a Matrix
 Transposing a matrix involves swapping the rows and columns of the matrix. Here's a Java program to transpose a matrix:
 
-java
-Copy code
 public class TransposeMatrix {
     public static void main(String[] args) {
         int[][] matrix = {
@@ -90,11 +83,11 @@ public class TransposeMatrix {
         return transposed;
     }
 }
-Printing a Matrix in Spiral Order
+
+
+#### Printing a Matrix in Spiral Order
 Printing a matrix in spiral order involves traversing the matrix in a spiral pattern. Here's a Java program to print a matrix in spiral order:
 
-java
-Copy code
 public class SpiralOrder {
     public static void main(String[] args) {
         int[][] matrix = {
@@ -139,9 +132,8 @@ public class SpiralOrder {
         }
     }
 }
-Contributing
-Contributions are welcome! Please open an issue or submit a pull request if you have any improvements or new examples to add.
 
-License
-This project is licensed under the MIT License. See the LICENSE file for details.
+### Contributing
+Contributions are welcome! Please open an issue or submit a pull request if you have any improvements or new examples to add.
+Happy coding!
 
